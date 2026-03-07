@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:sitetalkie-ios}",
+            "name": "Debug bitchat",
+            "program": "${workspaceFolder:sitetalkie-ios}/.build/debug/bitchat",
+            "preLaunchTask": "swift: Build Debug bitchat"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:sitetalkie-ios}",
+            "name": "Release bitchat",
+            "program": "${workspaceFolder:sitetalkie-ios}/.build/release/bitchat",
+            "preLaunchTask": "swift: Build Release bitchat"
+        }
+    ]
+}
